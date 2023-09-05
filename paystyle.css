@@ -1,0 +1,41 @@
+header h1{
+    text-align: center;
+    padding: 50px;
+    color:blue;
+    background-color:rgb(14, 203, 228) ;
+}
+marquee{
+    color:white;
+    background-color:black;
+}
+html{
+    background-color: rgb(197, 222, 238);
+}
+legend{
+    text-align: center;
+    color:blue;
+
+}
+input[type="Submit"]{
+    padding: 12px 20px;
+    color:white;
+    background-color: blue;
+    -webkit-text-stroke-width: 0.5px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    width:100%;
+}
+div{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(14, 203, 228);
+}
+
+footer a{
+    color:blue;
+    font-size: large;
+}

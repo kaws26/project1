@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="paystyle.css">
+</head>
+<body>
+    <header>
+        <h1>PAYMENT FORM</h1>
+    </header>
+    <nav>
+        <marquee>
+            Welcome! To Payment form . This Portal is designed by Kawaljeet Singh!
+        </marquee>
+    </nav>
+    <br>
+    <br>
+    <main>
+        <form>
+            <fieldset>
+                 <legend><h2>Contact Information</h2></legend>
+                <p>
+                    First Name: <input type="text" name="name" placeholder="Enter your first name" required>
+                </p>
+                <p>
+                    Last Name: <input type="text" name="name" placeholder="Enter your last name">
+                </p>
+                <br>
+                <p>
+                    Gender:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    Male<input type="radio" name="Gender" value="male" required>  &nbsp&nbsp&nbsp&nbsp Female<input type="radio" name="Gender" value="female"> &nbsp&nbsp&nbsp&nbsp others<input type="radio" name="Gender" value="others">
+                </p>
+                <p>Adress: <textarea name="Adress" id="" cols="100" rows="10" required></textarea></p>
+                <p>Email:  <input type="email" name="Email" id="email" placeholder="abc@example.com" required></p>
+                <p>Pincode: <input type="number" name="Pincode" id="Pincode" placeholder="Enter area pincode" required></p>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend><h2>Payment Information</h2></legend>
+                <p>
+                    Card Type: 
+                    <select name="card_type" id="card_type" required>
+                        <option value="">----Select a Card Type----</option>
+                        <option value="Visa">Visa</option>
+                        <option value="Rupay">Rupay</option>
+                        <option value="MasterCard">Master Card</option>
+                    </select>
+                </p>
+                <p>
+                    Card Holder Name: <input type="text" name="cardhname" id="cardhname" placeholder="Enter Card Holder Name" required>
+                </p>
+                <p>
+                    Card Number: <input type="number" name="card_num" id="card_num" placeholder="Enter your Card Number" required>
+                </p>
+                <p> Expiration Date: <input type="month" name="exp_date" id="exp_date" required></p>
+                <p>CVV: <input type="password" name="CVV" id="CVV" maxlength="3" minlength="3" required></p>
+            </fieldset>
+            <br>
+            <br>
+            <div>
+                <input type="submit" value="Pay Now">
+            </div>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <a href="#">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Feedback</a>
+    </footer>
+</body>
+</html>
